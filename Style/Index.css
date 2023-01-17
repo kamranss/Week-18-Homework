@@ -1,0 +1,33 @@
+.Container_Main {
+    margin-top: 10pm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 50px;
+    
+
+}
+
+.Container_Main_box1 {
+    border: 5px solid rebeccapurple;
+    margin-right: 15%;
+    box-shadow: 4px 4px 5px #888888;
+}
+
+.Container_Main_box2 {
+    border: 5px solid rebeccapurple;
+    box-shadow: 4px 4px 5px #888888;
+}
+
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    width: 400px;
+    text-align: center;
+
+    box-shadow: 4px 4px 5px #888888;
+    margin-top: 10px;
+}
