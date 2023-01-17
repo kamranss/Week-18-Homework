@@ -1,25 +1,15 @@
-.Container_Main {
-    margin-top: 10pm;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: lightblue;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    padding: 50px 50px;
-    
-
+    align-items: center;
 }
-
-.Container_Main_box1 {
-    border: 5px solid rebeccapurple;
-    margin-right: 15%;
-    box-shadow: 4px 4px 5px #888888;
-}
-
-.Container_Main_box2 {
-    border: 5px solid rebeccapurple;
-    box-shadow: 4px 4px 5px #888888;
-}
-
-
 h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3em;
@@ -27,7 +17,68 @@ h1 {
     border-right: 2px solid gray;
     width: 400px;
     text-align: center;
-
     box-shadow: 4px 4px 5px #888888;
     margin-top: 10px;
+}
+
+.Container_Main {
+    margin-top: 10pm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 50px;
+}
+
+.Container_Main_box_1 {
+    
+    margin-right: 15%;
+    box-shadow: 4px 4px 5px #888888;
+    height: fit-content;
+    width: fit-content;
+}
+
+.Container_Main_box_2 {
+    
+    box-shadow: 4px 4px 5px #888888;
+    transition: all 1s;
+}
+.Container_Main_box_2 :hover{
+    transform: scale(1.2)
+}
+
+.Container_1 h5{
+    font-family:'Times New Roman', Times, serif ;
+    color: #3366ff;
+}
+
+.Container_1_box_1 {
+    border: 5px solid rebeccapurple;
+    margin-right: 15%;
+    box-shadow: 4px 4px 5px #888888;
+    height: fit-content;
+    width: fit-content;
+}
+.Container_1_box_1 h3 pre {
+    border: 5px solid rebeccapurple;
+    margin-right: 15%;
+    box-shadow: 4px 4px 5px #888888;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 1%;
+}
+
+.Container_1_box_2 {
+    border: 5px solid rebeccapurple;
+    margin-right: 15%;
+    box-shadow: 4px 4px 5px #888888;
+    height: fit-content;
+    width: fit-content;
+}
+
+.Container_1_box_3 {
+    border: 5px solid rebeccapurple;
+    margin-right: 15%;
+    box-shadow: 4px 4px 5px #888888;
+    height: fit-content;
+    width: fit-content;
 }
