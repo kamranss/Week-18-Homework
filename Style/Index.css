@@ -1,38 +1,98 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
-body{
+body {
     background: rgb(183, 183, 173);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
-.container_Main{
-position: relative;
-width: 100%;
-max-width: 1000px;
-min-height: 1000px;
-background: #ffff;
-display: grid;
-grid-template-columns: 10fr 10fr;
-box-shadow: 0 40px 50px grey;
-}
-.container_Main .left_Side{
-    width: 650px;
+
+.container_Main {
     position: relative;
-    background: #003147;
-    padding: 50px;     
+    margin: 50px;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #ffff;
+    display: grid;
+    grid-template-columns: 10fr 10fr;
+    box-shadow: 0 40px 50px grey;
 }
-.container_Main .right_Side{
+
+.container_Main .left_Side {
+    width: 600px;
+    position: relative;
+    background: #339292;
+    padding: 50px;
+}
+
+.name_Surname {
+    color: aliceblue;
+    /* position: relative;
+    display: flex;
+    flex-direction: column; */
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(237, 229, 229);
+}
+
+.title_experience {
+    color: rgb(180, 186, 191);
+    padding-top: 30px;
+    font-weight: 1000hv;
+    font-size: large;
+
+}
+
+.company_1 {
+    padding-top: 20px;
+}
+
+.company_2 {
+    padding-top: 30px;
+}
+
+.company_3 {
+    padding-top: 30px;
+}
+
+.title_School {
+    color: rgb(180, 186, 191);
+    padding-top: 30px;
+    font-weight: 1000hv;
+    font-size: large;
+}
+
+.school_1 {
+    padding-top: 20px;
+}
+
+.school_2 {
+    padding-top: 20px;
+}
+
+.title_Project {
+    color: rgb(180, 186, 191);
+    padding-top: 30px;
+    font-weight: 1000hv;
+    font-size: large;
+}
+
+.project_1 {
+    padding-top: 20px;
+}
+
+.container_Main .right_Side {
     width: 350px;
     position: relative;
     background: white;
-    padding: 50px;     
+    padding: 50px;
 }
 
 
