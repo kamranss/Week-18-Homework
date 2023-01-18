@@ -34,6 +34,7 @@ body {
 
 .name_Surname {
     color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* position: relative;
     display: flex;
     flex-direction: column; */
@@ -41,6 +42,7 @@ body {
     padding-bottom: 20px;
     border-bottom: 1px solid rgb(237, 229, 229);
     font-size: larger;
+
 }
 
 .title_experience {
@@ -51,16 +53,26 @@ body {
 
 }
 
-.company_1 {
-    padding-top: 20px;
-}
-
-.company_2 {
-    padding-top: 30px;
-}
-
+.company_1,
+.company_2,
 .company_3 {
     padding-top: 30px;
+}
+
+
+.address,
+.company_1_details,
+.company_2_details,
+.company_3_details,
+.school_1_details,
+.school_2_details,
+.project_1_details,
+.skills_List,
+.awards,
+.list_Languages{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(62, 61, 61);
+
 }
 
 .title_School {
@@ -70,11 +82,9 @@ body {
     font-size: large;
 }
 
-.school_1 {
-    padding-top: 20px;
-}
-
-.school_2 {
+.school_1,
+.school_2,
+.project_1 {
     padding-top: 20px;
 }
 
@@ -85,10 +95,6 @@ body {
     font-size: large;
 }
 
-.project_1 {
-    padding-top: 20px;
-}
-
 .container_Main .right_Side {
     margin-right: 0;
     width: 400px;
@@ -96,6 +102,7 @@ body {
     background: rgb(241, 237, 237);
     padding: 50px;
 }
+
 .address {
     color: #057474;
     /* position: relative;
@@ -106,25 +113,30 @@ body {
     border-bottom: 1px solid rgb(237, 229, 229);
     border-right: 1px solid rgb(237, 229, 229);
     font-size: larger;
-    /* background: rgb(241, 237, 237); */
-    display: grid;
-    grid-template-columns: 10fr 10fr;
-    box-shadow: 0 40px 50px grey;
+    box-shadow: 0 1px 5px grey;
+    padding-left: 10px;
+    padding-top: 10px;
 }
-.title_skills{
-  
+
+.title_Skills {
+
     color: #06bebe;
     font-style: inherit;
     padding-top: 30px;
-   
+
     font-size: larger;
 }
-.title_Languages{
-  
+
+.skills_List {
+    padding-left: 15px;
+}
+
+.title_Languages {
+
     color: #06bebe;
     font-style: inherit;
     padding-top: 30px;
-   
+
     font-size: larger;
 }
 
