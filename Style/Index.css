@@ -33,7 +33,7 @@ body {
 }
 
 .name_Surname {
-    color: aliceblue;
+    color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* position: relative;
     display: flex;
@@ -45,8 +45,8 @@ body {
 
 }
 
-.title_experience {
-    color: rgb(180, 186, 191);
+.title_experience, .title_School, .title_Project {
+    color: rgb(230, 235, 239);
     padding-top: 30px;
     font-weight: 1000hv;
     font-size: large;
@@ -75,12 +75,7 @@ body {
 
 }
 
-.title_School {
-    color: rgb(180, 186, 191);
-    padding-top: 30px;
-    font-weight: 1000hv;
-    font-size: large;
-}
+
 
 .school_1,
 .school_2,
@@ -88,12 +83,7 @@ body {
     padding-top: 20px;
 }
 
-.title_Project {
-    color: rgb(180, 186, 191);
-    padding-top: 30px;
-    font-weight: 1000hv;
-    font-size: large;
-}
+
 
 .container_Main .right_Side {
     margin-right: 0;
