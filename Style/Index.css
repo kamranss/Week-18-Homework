@@ -40,6 +40,7 @@ body {
     align-items: center;
     padding-bottom: 20px;
     border-bottom: 1px solid rgb(237, 229, 229);
+    font-size: larger;
 }
 
 .title_experience {
@@ -93,6 +94,24 @@ body {
     position: relative;
     background: white;
     padding: 50px;
+}
+.address {
+    color: rgb(50, 103, 149);
+    /* position: relative;
+    display: flex;
+    flex-direction: column; */
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(237, 229, 229);
+    font-size: larger;
+}
+.title_skills{
+  
+    color: #06bebe;
+    font-style: inherit;
+    padding-top: 30px;
+   
+    font-size: larger;
 }
 
 
